@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+  }
+
+h1 {
+    text-align: center;
+}
+
+.box {
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    text-align: center;
+    font-size: 50px;
+    width: calc((100% - 40px) / 2);
+    border: 1px solid black;
+    margin: 10px;
+    margin-top: 50px;
+    
+}
+
+.item:hover {
+    background: white;
+    color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#open { 
+    background-color: rgb(180, 227, 255);   
+}
+
+#closed { 
+    background-color: rgb(83, 123, 148);   
+}
+
+#casher { 
+    background-color: rgb(247, 145, 105);   
+}
+#stock_up { 
+    background-color: rgb(225, 255, 144);   
+}
+
+#eighteen {
+    background-color: rgb(255, 149, 50); 
+}
+
+#others { 
+    background-color: rgb(205, 131, 255);   
+}
